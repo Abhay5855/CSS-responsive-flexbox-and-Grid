@@ -1,0 +1,100 @@
+figcaption {
+    background-color: #001219;
+  color: white;
+  padding: 1rem;
+}
+
+figure {
+     margin : 0;
+     padding: 0;
+}
+
+figure > div {
+    
+
+    background-image: url('../../assets/images/download.svg');
+    min-height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* background-color: #9b2226; */
+   
+        
+}
+
+.one {
+    background-color: yellow;
+     
+}
+
+.two {
+      background-color: darkorange;
+}
+
+.three {
+     background-color: brown;
+}
+
+.four {
+
+    background-color: cyan;
+
+}
+
+figcaption * {
+    margin: 0.5rem;
+  }
+
+
+/* Parent element */
+
+
+
+
+
+/* Media Quesries */
+
+@media (min-width : 550px){
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 4%;
+        /* margin: 1px; */
+   }
+
+
+   figure {
+        flex-basis: 48%;
+   }
+   
+     
+}
+
+
+
+
+
+
+@media (min-width : 800px){
+    figure {
+        flex-basis: 22%;
+   }
+   
+   .stretch {
+        flex-basis: 48%;
+   }
+   
+   
+   .stretch1 {
+        flex-basis: 48%;
+   }
+   
+   .stretch2 {
+        flex-basis: 100%;
+   }
+   
+
+
+}
+
